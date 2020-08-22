@@ -15,7 +15,7 @@ function TotalCaseChart(props) {
                         <YAxis dataKey="totalCases" />
                         <Tooltip/>
                         <CartesianGrid stroke="#f5f5f5" />
-                        <Line type="monotone" dataKey="totalCases" stroke="#82ca9d" />
+                        <Line type="monotone" dataKey="totalCases" stroke="#E01C1C" />
                     </LineChart>
                 </ResponsiveContainer>
             </Card.Body>

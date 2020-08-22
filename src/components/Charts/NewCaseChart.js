@@ -15,7 +15,7 @@ function NewCaseChart(props) {
                         <YAxis dataKey="newCases"/>
                         <Tooltip />
                         <CartesianGrid stroke="#f5f5f5" />
-                        <Bar dataKey="newCases" fill="#8884d8" />
+                        <Bar dataKey="newCases" fill="#E01C1C" />
                     </BarChart>
                 </ResponsiveContainer>
             </Card.Body>

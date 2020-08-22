@@ -4,7 +4,7 @@ import {Image} from 'react-bootstrap';
 
 function Header() {
     return (
-        <div style={{textAlign:"center", marginTop:"5px"}}> 
+        <div style={{padding:"5px"}}> 
            <Image src={logo} fluid />
         </div>
     )

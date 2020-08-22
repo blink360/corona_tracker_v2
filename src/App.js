@@ -8,6 +8,7 @@ import Rate from './components/Dashboard/Rate';
 import NewCaseChart from './components/Charts/NewCaseChart';
 import TotalCaseChart from './components/Charts/TotalCaseChart';
 import Header from './components/Header&Footer/Header';
+import Footer from './components/Header&Footer/Footer';
 
 function App() {
   let [covidData, setCovidData] = useState([]);
@@ -42,7 +43,7 @@ function App() {
   }, [1]);
 
   return (
-    <Container fluid>
+    <Container fluid >
       <Header/>
       <Row>
         <Col sm={12}>
@@ -64,7 +65,7 @@ function App() {
           </Row>
           <Row>
             <Col sm={12}>
-              <NewCaseChart data={covidData.filter((a) => { return a.totalCases > 0 && a.newCases > 10 })} />
+              <NewCaseChart data={covidData.filter((a) => { return a.totalCases > 0 && a.newCases > 10 }).slice(50)} />
             </Col>
           </Row>
           <Row>
@@ -74,6 +75,7 @@ function App() {
           </Row>
         </>
         : ""}
+        <Footer/>
     </Container>
   );
 }
