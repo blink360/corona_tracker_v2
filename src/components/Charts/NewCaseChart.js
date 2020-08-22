@@ -2,7 +2,7 @@ import React from 'react'
 import { BarChart, XAxis, CartesianGrid, Bar, Tooltip,ResponsiveContainer, YAxis } from 'recharts';
 import { Card } from 'react-bootstrap';
 import { Typography } from '@material-ui/core';
-import styles from '../assets/css/dashboard.module.scss';
+import styles from '../../assets/css/dashboard.module.scss';
 
 function NewCaseChart(props) {
     return (

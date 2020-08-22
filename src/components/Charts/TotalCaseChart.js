@@ -1,7 +1,7 @@
 import React from 'react'
 import { LineChart, CartesianGrid, XAxis, YAxis, Tooltip, Line, ResponsiveContainer } from 'recharts'
 import { Card } from 'react-bootstrap';
-import styles from '../assets/css/dashboard.module.scss';
+import styles from '../../assets/css/dashboard.module.scss';
 import { Typography } from '@material-ui/core';
 
 function TotalCaseChart(props) {

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap';
 import { Typography } from '@material-ui/core';
-import styles from '../assets/css/dashboard.module.scss';
+import styles from '../../assets/css/dashboard.module.scss';
 import AddIcon from '@material-ui/icons/Add';
 function Dashboard(props) {
     return (
