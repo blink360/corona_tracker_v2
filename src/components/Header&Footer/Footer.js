@@ -16,7 +16,7 @@ function Footer() {
                 <Col sm={12} md={6}>
                     <Card id={styles.card} border="dark">
                         <Card.Body>
-                            <Typography variant="h6" paragraph>Symptomps</Typography>
+                            <Typography variant="h6" paragraph>Symptoms</Typography>
                             <Row>
                                 <Col xs={4}>
                                     <div>
